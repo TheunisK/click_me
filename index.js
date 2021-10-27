@@ -17,6 +17,10 @@ function updateButtonColour(colour) {
 function updateButtonStyle() {
     buttonEl.style.height = "100px";
     buttonEl.style.width = "100px";
+    buttonEl.style.borderRadius = "10px";
+    buttonEl.innerText = "Click Me";
+    buttonEl.style.color = "red";
+    buttonEl.style.fontSize = "2rem";
 }
 
 function updateButton(colour) {
